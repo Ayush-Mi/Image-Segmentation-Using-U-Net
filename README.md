@@ -16,6 +16,9 @@ The custom dataset used in this implementation was created by [Divam Gupta](http
 
 ## Method
 
+A U-Net architecture with input and output shape of 128X128X3 was used. It has a down sampler or 2 encoder blocks of each - 64,128,256 and 512 filters
+and upsampler or 2 decoder blocks of each - 512,256,128 and 64 filters. It also uses a bottleneck of 2 1024 filters. The model had ~34.5M parameters and was trained for 20 epochs with Adam optimizer and catergorical cross entropy as loss function.
+
 ## Results
 
 ## Applications
