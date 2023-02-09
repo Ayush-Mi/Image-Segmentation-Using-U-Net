@@ -29,7 +29,7 @@ and upsampler or 2 decoder blocks of each - 512,256,128 and 64 filters. It also 
 ## Steps
 
 1. Clone this repo.
-2. Download the dataset from [link](https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?usp=sharing)
+2. Download the dataset from this [link](https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?usp=sharing)
 3. Install the required libraries using requirements.txt
 4. Use train.ipynb to retrain the architecture on custom dataset
 5. The train log will be stored as tesorboard variables in ./log folder
