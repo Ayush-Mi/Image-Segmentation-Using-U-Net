@@ -10,6 +10,13 @@ In this repo I have implemented a simple U-net to demonstrate the use case of im
 
 ## U-Net
 
+U-Net, as the name suggest follows an encoder - decoder based model with decoder mirroring the encoders and a bottleneck layer. It was first introduced by Olaf Ronneberger et. al. in their paper [U-Net: Convolutional Network for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf) with training strategy that relies on the strong use of data augmentation and use the available annotated samples more efficiently.
+
+![](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png)
+
+Each encoder block has two conv layer followed by a max pool layer and each decoder block has two conv layers followed by upsampling layers along with the output of the corresponding encoder layer as shown in the image above. 
+
+
 ## Dataset
 
 The custom dataset used in this implementation was created by [Divam Gupta](https://github.com/divamgupta/image-segmentation-keras) using [CityScape Dataset](https://disq.us/url?url=https%3A%2F%2Fwww.cityscapes-dataset.com%2Fdataset-overview%2F%3A6phlceP6Z-8-tPaIGijFHjEViv0&cuid=5799521). He also has an excellent blog on [Semantic Segmentation using Keras](https://divamgupta.com/image-segmentation/2019/06/06/deep-learning-semantic-segmentation-keras.html). It has 367 annotated images of size 480p by 360p in train set and 101 annotated images of size 480p by 360p in validation set. The annotated image has pixels classified in 12 classes - 'sky', 'building','column/pole', 'road', 'side walk', 'vegetation', 'traffic light', 'fence', 'vehicle', 'pedestrian', 'byciclist', 'void'.
