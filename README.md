@@ -28,4 +28,13 @@ With the above method following results were achieved
 
 ## Applications
 
+Image segmentation can has application under different sector
+- Medical Imaging
+- Autonomous Driving
+- Satellite Imaging
+
 ## Reference
+1. [Divam Gupta](https://github.com/divamgupta/image-segmentation-keras)
+2. [CityScape Dataset](https://disq.us/url?url=https%3A%2F%2Fwww.cityscapes-dataset.com%2Fdataset-overview%2F%3A6phlceP6Z-8-tPaIGijFHjEViv0&cuid=5799521)
+3. [CamVid Dataset](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
+4. [U-Net](https://arxiv.org/abs/1505.04597)
