@@ -12,6 +12,8 @@ In this repo I have implemented a simple U-net to demonstrate the use case of im
 
 ## Dataset
 
+The custom dataset used in this implementation was created by [Divam Gupta](https://github.com/divamgupta/image-segmentation-keras)
+
 ## Method
 
 ## Results
