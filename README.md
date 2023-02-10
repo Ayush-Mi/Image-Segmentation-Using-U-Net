@@ -37,8 +37,9 @@ and upsampler or 2 decoder blocks of each - 512,256,128 and 64 filters. It also 
 ## Results
 
 With the above method following results were achieved
-![](https://github.com/Ayush-Mi/Image-Segmentation-Using-U-Net/blob/main/images_/accuracy_plot.png) 
-![](https://github.com/Ayush-Mi/Image-Segmentation-Using-U-Net/blob/main/images_/loss_plot.png)
+Accuracy Plot | Loss Plot
+:---: | :---:
+![](https://github.com/Ayush-Mi/Image-Segmentation-Using-U-Net/blob/main/images_/accuracy_plot.png) | ![](https://github.com/Ayush-Mi/Image-Segmentation-Using-U-Net/blob/main/images_/loss_plot.png)
 
 ![](https://github.com/Ayush-Mi/Image-Segmentation-Using-U-Net/blob/main/images_/output.png)
 
